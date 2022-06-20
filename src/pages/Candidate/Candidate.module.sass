@@ -1,0 +1,45 @@
+.list
+	display: grid
+	grid-template-columns: repeat(3, 1fr)
+	gap: 15px
+.item
+	background-color: #ECF8DB
+	border-radius: 10px
+	padding: 30px 25px
+.row
+	display: flex
+	justify-content: space-between
+	&:not(:last-child)
+		padding-bottom: 10px
+	span
+		&:first-child
+			color: #8D8D8D
+
+.message
+	display: flex
+	justify-content: space-between
+	flex-direction: column
+	gap: 10px
+	padding-bottom: 20px
+	span
+		&:first-child
+			color: #8D8D8D
+
+.controle
+	color: #82B93C
+	text-align: right
+	font-weight: 700
+	cursor: pointer
+
+.close
+	color: #e02222
+	text-align: right
+	font-weight: 700
+	cursor: pointer
+
+.deal
+	color: #F6B361
+	font-weight: 700
+.dealsucsess
+	color: #82B93C
+	font-weight: 700
